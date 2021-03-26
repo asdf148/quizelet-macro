@@ -17,12 +17,12 @@ voca = []
 
 driver.find_element_by_css_selector(".AssemblyButtonBase.AssemblyTextButton.AssemblyTextButton--inverted.AssemblyButtonBase--small").click()
 driver.find_element_by_css_selector(".UIButton.UIButton--social.UIButton--fill.UIButton--hero").click()
-driver.find_element_by_name('identifier').send_keys("202615ljy@dsm.hs.kr")
+driver.find_element_by_name('identifier').send_keys("")
 driver.find_element_by_name('identifier').send_keys(Keys.ENTER)
 
 driver.implicitly_wait(5)
 
-driver.find_element_by_name('password').send_keys('wnduf0987@')
+driver.find_element_by_name('password').send_keys('')
 driver.find_element_by_name('password').send_keys(Keys.ENTER)
 
 driver.implicitly_wait(20)
